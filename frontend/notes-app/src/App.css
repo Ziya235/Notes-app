@@ -1,0 +1,26 @@
+
+@media (max-width:992px) {
+    .home-cards{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    
+}
+
+@media (max-width:550px) {
+    .home-cards{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .add-notes-modal{
+        width: 80%;
+    }
+}
+
+@media (max-width:620px) {
+    .search-bar{
+        display: none;
+    }
+}
+
+
